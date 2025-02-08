@@ -1,0 +1,21 @@
+{
+  "name": "rhymetime",
+  "version": "1.0.0",
+  "description": "tests if words rhyme",
+  "homepage": "https://github.com/SDKwapis/RhymeTime#readme",
+  "bugs": {
+    "url": "https://github.com/SDKwapis/RhymeTime/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SDKwapis/RhymeTime.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node script.js"
+  }
+}
