@@ -1,5 +1,5 @@
-let rhyme1 = "Sam I am!";
-let rhyme2 = "green eggs and ham";
+let rhyme1 = "Armed and dangerous";
+let rhyme2 = "Ain't too many can bang with us";
 let vowels = ["a", "e", "i", "o", "u"];
 
 function rhymeTime() {
@@ -24,13 +24,9 @@ function rhymeTime() {
       if (word2.includes(vowels[i])) {
         v2.push(vowels[i]);
         console.log(v2);
-      } else {
-        console.log("no matching vowels");
-      }
-      if(v1 == v2) {
-        console.log("They Rhyme!") 
-      } else {
-        console.log("no matching vowels")
+        if (JSON.stringify(v1) == JSON.stringify(v2)) {
+          console.log("They Rhyme!");
+        }
       }
     }
   }
