@@ -1,5 +1,5 @@
-let rhyme1 = "Armed and dangerous";
-let rhyme2 = "Ain't too many can bang with us";
+let rhyme1 = "sam I am";
+let rhyme2 = "green eggs and ham";
 let vowels = ["a", "e", "i", "o", "u"];
 
 function rhymeTime() {
